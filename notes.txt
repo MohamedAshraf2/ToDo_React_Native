@@ -1,0 +1,16 @@
+
+// Mouting Phase
+    Class                                                       Function
+constructor()                                               useEffect(callback)
+static getDerivedStateFromProps()                           functionalComponentName(props)
+render()                                                    functionalComponent return statement
+componentDidMount()                                         useEffect(callback)
+
+// Updating Phase
+shouldComponentUpdate()                                     useEffect(callback, [dependancies])
+render()                                                    functionalComponent return statement
+getSnapshotBeforeUpdate()                                   // Na M4 3aRf D A
+componentDidUpdate()                                        useEffect(callback)
+
+// Unmounting Phase
+componentWillUnmount()                                      useEffect(callback, [dependancies])
